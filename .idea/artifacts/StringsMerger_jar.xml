@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="StringsMerger:jar">
+    <output-path>$PROJECT_DIR$/out2/artifacts/StringsMerger_jar</output-path>
+    <root id="archive" name="StringsMerger.jar">
+      <element id="module-output" name="StringsMerger" />
+    </root>
+  </artifact>
+</component>

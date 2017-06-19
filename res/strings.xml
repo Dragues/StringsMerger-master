@@ -1,0 +1,801 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <string name="app_name">Read!</string>
+    <string name="content_description" translatable="false">no_image</string>
+    <!--different actions button-->
+    <string name="action_add_review">Add review</string>
+    <string name="action_add_shelf">Add bookshelf</string>
+    <string name="action_buy">Buy for</string>
+    <string name="action_cancel">CANCEL</string>
+    <string name="action_cancel_request">Cancel request</string>
+    <string name="action_delete">DELETE</string>
+    <string name="action_delete_file">Delete file</string>
+    <string name="action_download">Download</string>
+    <string name="action_download_new">Download</string>
+    <string name="action_get_free">FREE</string>
+    <string name="action_move">MOVE</string>
+    <string name="action_obtain">Take</string>
+    <string name="action_obtain_from_library">Get from library</string>
+    <string name="action_postpone">To cart</string>
+    <string name="action_unpostpone">In cart</string>
+    <string name="action_request">Request</string>
+    <string name="action_request_from_librarian">Request from library</string>
+    <string name="action_read">Read</string>
+    <string name="action_read_fragment">READ FRAGMENT</string>
+    <string name="action_rename">RENAME</string>
+    <string name="action_rename_shelf">Rename bookshelf</string>
+    <string name="action_see_all_books">View all books</string>
+    <string name="action_subscribe">Subscribe</string>
+    <string name="action_unsubscribe">You are subscribed</string>
+    <string name="action_take_as_free">Take</string>
+    <string name="action_to_shelf">To bookshelf</string>
+    <string name="action_open_in">Open in</string>
+    <string name="action_to_archive">To archive</string>
+    <string name="action_write_review">Write a review</string>
+    <!--AUTHOR-->
+    <string name="author_card_array_by_pop">Popularity</string>
+    <string name="author_card_array_by_new">Release date</string>
+    <string name="author_card_name">Author\'s name</string>
+    <string name="author_card_no_description">There is no information on this author</string>
+    <string name="author_card_tab_books">BOOKS</string>
+    <string name="author_card_tab_series">SERIES</string>
+    <string name="author_card_tab_about">ABOUT THE AUTHOR</string>
+    <string name="author_error_no_such_author">An error occurred. Information about the author is unavailable. Please try again later.</string>
+    <string name="author_tab_about_title">ABOUT THE AUTHOR</string>
+    <string name="author_tab_books_order_by">Arrange by:</string>
+    <string name="author_tab_series_text_no">This author has no series</string>
+    <!--ABOUT AND SUPPORT-->
+    <string name="about_dialog_app_name">&quot;Read! &quot;</string>
+    <string name="about_support_email_error">Configure or install an email client to send an email to tech support</string>
+    <string name="about_support_no_user">not authorized</string>
+    <string name="about_support_no_user_login">no information</string>
+    <string name="about_text_middle">Founded in 2006, LitRes is the largest seller of licensed e-books in Russia. The company\'s library of e-books is currently in the tens of thousands, and 1,500–2,000 books are added to the LitRes catalog every month.</string>
+    <string name="about_text_support">If you have any questions, requests, or technical issues, please contact us at\u0020</string>
+    <string name="about_text_support_active" translatable="false">android@litres.ru</string>
+    <string name="about_text_support_full">If you have any questions, requests, or technical issues, please contact us at android@litres.ru</string>
+    <string name="about_text_top">LitRes is the #1 seller of licensed e-books in Russia and the CIS. We are trusted by leading Russian-language publishers and authors.</string>
+    <!--BANNERS-->
+    <string name="banner_web_view_default_title">Follow external link</string>
+    <string name="banner_open_error">Error</string>
+    <!--BONUSES-->
+    <string name="bonuses_empty">There are no bonuses at the moment</string>
+    <string name="bonuses_collection">Collection</string>
+    <!-- BOOK CARD-->
+    <string name="book_card_authors_more">MORE</string>
+    <string name="book_card_authors_etc">and more</string>
+    <string name="book_card_delete_attention_title">Warning!</string>
+    <string name="book_card_delete_text">This book will be deleted forever.</string>
+    <string name="book_card_delete_file_yes">YES</string>
+    <string name="book_card_delete_file_no">NO</string>
+    <string name="book_card_epub_info">Book in EPUB format\nadapted for iPad</string>
+    <string name="book_card_epub_open_in">Open in…</string>
+    <string name="book_card_error_load_failed">Failed to load information about the book</string>
+    <string name="book_card_info_audio_book">AUDIO VERSION</string>
+    <string name="book_card_info_description">Book description</string>
+    <string name="book_card_info_description_more">READ MORE</string>
+    <string name="book_card_info_format">Format</string>
+    <string name="book_card_info_genres_tags">Genres and tags</string>
+    <string name="book_card_info_not_read">NOT YET READ</string>
+    <string name="book_card_info_pages_count">pages</string>
+    <string name="book_card_info_read">READ</string>
+    <string name="book_card_info_sequence">SERIES</string>
+    <string name="book_card_info_similar_books">Similar books</string>
+    <string name="book_card_info_year">Year of publication</string>
+    <string name="book_card_format_fb2">FB2</string>
+    <string name="book_card_format_epub">EPUB</string>
+    <string name="book_card_format_pdf">PDF</string>
+    <string name="book_card_library_count">Number of copies in the library:</string>
+    <string name="book_card_library_count_in_hand">Books on hand:</string>
+    <string name="book_card_library_readers_in_queue">Readers in line:</string>
+    <string name="book_card_library_valid_till">This book has been lent until:</string>
+    <string name="book_card_loading_text">Please wait</string>
+    <string name="book_card_loading_title">Loading…</string>
+    <string name="book_card_mark_number_1">1</string>
+    <string name="book_card_mark_number_2">2</string>
+    <string name="book_card_mark_number_3">3</string>
+    <string name="book_card_mark_number_4">4</string>
+    <string  name="book_card_mark_number_5">5</string>
+    <string name="book_card_mark_set">Rate the book</string>
+    <string name="book_card_mark_your">Your rating</string>
+    <string name="book_card_moved_to_archive">\&quot;%1$s\&quot; has been moved to the archive</string>
+    <string name="book_card_moved_to_shelf">\&quot;%1$s\&quot; has been moved to the bookshelf %2$s</string>
+    <string name="book_card_review_error">error!</string>
+    <string name="book_card_review_error_not_sent">Failed to submit your review. Check your network connection and try again</string>
+    <string name="book_card_review_error_too_short">Reviews must be at least 140 characters long</string>
+    <string name="book_card_review_error_vote_not_sent">Failed to submit vote for review</string>
+    <string name="book_card_review_minus">-</string>
+    <string name="book_card_review_plus">+</string>
+    <string name="book_card_review_read_more">READ MORE</string>
+    <string name="book_card_review_sent_text">Your review will be published once it has been checked by a moderator.</string>
+    <string name="book_card_review_sent_title">Review submitted</string>
+    <string name="book_card_review_show_more">20 MORE REVIEWS</string>
+    <string name="book_card_review_title">Reviews</string>
+    <plurals name="book_card_review">
+        <item quantity="one">%1$d review more</item>
+        <item quantity="other">%1$d reviews more</item>
+    </plurals>
+    <!-- BOOK DOWNLOADING -->
+    <string name="book_download_canceled">The download of \&quot;%1$s\&quot; was cancelled</string>
+    <string name="book_download_complete">\&quot;%1$s\&quot; has finished downloading</string>
+    <string name="book_download_error">&quot;Failed to download \&quot;%1$s\&quot;&quot;</string>
+    <string name="book_download_error_limit_reached">&quot;\&quot;%1$s\&quot; has been downloaded the maximum number of times. Please wait until the end of the month or contact customer support.&quot;</string>
+    <string name="book_download_error_not_purchased">&quot;Failed to download \&quot;%1$s\&quot; from this account because the book has not been purchased. It has been added to your shopping cart.&quot;</string>
+    <string name="book_download_file_deleted">\&quot;%1$s\&quot; file deleted</string>
+    <!--BOOK LISTS-->
+    <string name="book_list_error_retry_btn">Retry</string>
+    <string name="book_list_error_cant_load_data">Failed to load data.</string>
+    <string name="book_list_error_check_connection_toast">Check your network connection.</string>
+    <string name="book_list_error_network_full">Failed to load data.\nCheck your network connection.</string>
+    <string name="book_list_nothing_found">Nothing found</string>
+    <string name="book_list_shop_title">Store</string>
+    <string name="book_list_tab_reading">CURRENTLY READING</string>
+    <string name="book_list_tab_shelves">BOOKSHELVES</string>
+    <string name="book_list_tab_popular">Popular</string>
+    <!--CATALIT ERROR MESSAGES-->
+    <string name="catalit_error_wrong_phone">Invalid phone number</string>
+    <string name="catalit_error_prev_payment">The previous payment has not been confirmed</string>
+    <string name="catalit_error_mc_cant_pay">Payment via mobile account is unavailable</string>
+    <string name="catalit_failed_connection">Error connecting to server</string>
+    <string name="catalit_failed_unknown_code">error code -</string>
+    <string name="catalit_book_cant_load_storage_error">The book cannot be downloaded because the application does not have access to memory</string>
+    <!--COLLECTIONS-->
+    <string name="collections_dialog_no_available_books_text">You have selected all available books from the collection. Go to \&quot;My Books\&quot; to start reading.</string>
+    <string name="collections_dialog_no_available_books_btn_title">MY BOOKS</string>
+    <!--COUPONS-->
+    <string name="coupon_collection_view_header_choose">Select</string>
+    <string name="coupon_dialog_button_activate">ACTIVATE COUPON</string>
+    <string name="coupon_dialog_button_choose">Select</string>
+    <string name="coupon_dialog_edit_text_hint">Coupon code</string>
+    <string name="coupon_dialog_info_gift_book">You got a free book:</string>
+    <string name="coupon_dialog_info_gift_books">You got the following free books:</string>
+    <string name="coupon_dialog_title">Enter coupon code</string>
+    <plurals name="coupon_dialog_you_get_gift_books_count">
+        <item quantity="one">You got %s free book.</item>
+        <item quantity="other">You got %s free books.</item>
+    </plurals>
+    <string name="coupon_error_code_activated">You have already activated the coupon for this promotion</string>
+    <string name="coupon_error_code_already_used">This coupon has already been used</string>
+    <string name="coupon_error_code_expired">This coupon has expired</string>
+    <string name="coupon_error_code_format_invalid">Invalid coupon format</string>
+    <string name="coupon_error_code_invalid">Invalid coupon code</string>
+    <string name="coupon_error_dialog_show">Error opening dialog window</string>
+    <string name="coupon_error_load_book">Failed to download book</string>
+    <string name="coupon_error_load_collection">Failed to download collection</string>
+    <string name="coupon_error_load_books">Failed to download books</string>
+    <string name="coupon_error_need_more_money">This coupon can only be used when adding at least 100 rubles to your account</string>
+    <string name="coupon_error_smth_wrong">Error while getting coupon.</string>
+
+    <string name="coupon_ok">OK</string>
+    <string name="coupon_more">More</string>
+    <!--GENRES-->
+    <plurals name="favourite_genre_book_count_plural">
+        <item quantity="one">%d book</item>
+        <item quantity="other">%d books</item>
+    </plurals>
+    <plurals name="favourite_genre_books_all_count_plural">
+        <item quantity="one">Total: %d book</item>
+        <item quantity="other">Total: %d books</item>
+    </plurals>
+    <string name="favourite_genre_foreign_lit">Foreign literature</string>
+    <string name="favourite_genre_other_title">Other</string>
+    <string name="favourite_genre_title">Favorite genres</string>
+    <string name="favourite_genre_view_no_books">No books found</string>
+    <!--FOUR BOOK-->
+    <string name="four_book_as_present">Free book!</string>
+    <plurals name="four_book_buy_more_books">
+        <item quantity="one">Buy %s more e-book in the next 24 hours and get a book for free</item>
+        <item quantity="other">Buy %s more e-books in the next 24 hours and get a book for free</item>
+    </plurals>
+    <string name="four_book_error_add_art">Error taking book</string>
+    <string name="four_book_error_already_yours">You already own this book</string>
+    <string name="four_book_error_art">Invalid book ID</string>
+    <string name="four_book_error_expensive">The cost of this book exceeds the price limit for the free book</string>
+    <string name="four_book_has_present">A free gift for you!</string>
+    <string name="four_book_has_present_text">During the next 24 hours you can choose any book from the catalog marked with this symbol:</string>
+    <plurals name="four_book_hours_plural">
+        <item quantity="one">HOUR</item>
+        <item quantity="other">HOURS</item>
+    </plurals>
+    <string name="four_book_offer_description_title">Special offer terms and conditions</string>
+    <string name="four_book_ok">OK</string>
+    <plurals name="four_book_minutes_plural">
+        <item quantity="one">MINUTE</item>
+        <item quantity="other">MINUTES</item>
+    </plurals>
+    <string name="four_book_no_active_offers">No active offers for claiming a gift</string>
+    <string name="four_book_offer_condition_warning">This special offer extends to the entire catalog of paid books.</string>
+    <string name="four_book_offer_condition_text">1. Make a purchase in the Read! mobile app.\n\n2. Purchase two more e-books in the mobile app within the next 24 hours.\n\n3. Get a fourth e-book for free.\n\n4. The free book can be an e-book from the mobile app, the price of which is less than the least expensive of the three books you purchased.</string>
+    <string name="four_book_offer_desc">SPECIAL OFFER TERMS AND CONDITIONS</string>
+    <string name="four_book_present">Gift</string>
+    <plurals name="four_book_plurals">
+        <item quantity="one">book</item>
+        <item quantity="other">books</item>
+    </plurals>
+    <string name="four_book_terms_title">SPECIAL OFFER TERMS AND CONDITIONS</string>
+    <string name="four_book_text_1">1</string>
+    <string name="four_book_text_2">2</string>
+    <string name="four_book_text_3">3</string>
+    <string name="four_book_text_plus">+</string>
+    <string name="four_book_text_equals" translatable="false">=</string>
+    <string name="four_book_time_is_limited">The offer is for a limited time only</string>
+    <!--MIGRATION-->
+    <string name="migration_books_convert">Processing books: %1$d of %2$d</string>
+    <!--NAVIGATION DRAWER-->
+    <string name="nav_drawer_title_settings">Settings</string>
+    <string name="nav_drawer_title_bonus">Bonuses</string>
+    <string name="nav_drawer_title_choice">Editor\'s choice</string>
+    <string name="nav_drawer_title_collection">Featured</string>
+    <string name="nav_drawer_title_coupon">Activate coupon</string>
+    <string name="nav_drawer_title_in_cart">In cart</string>
+    <string name="nav_drawer_title_genre">Genres</string>
+    <string name="nav_drawer_title_my_books">My books</string>
+    <string name="nav_drawer_title_newest">New releases</string>
+    <string name="nav_drawer_title_sequence">Series</string>
+    <string name="nav_drawer_enter_or_register">LOG IN / REGISTER</string>
+    <string name="nav_drawer_add_funds_title">Add funds to account balance</string>
+    <string name="nav_drawer_logo_title">LitRes:</string>
+    <string name="nav_drawer_anonymous_user_title">Anonymous reader</string>
+    <string name="nav_drawer_registered_user_title">Registered reader</string>
+    <!--PAYMENT-->
+    <string name="payment_currency_rub">RUB</string>
+    <string name="payment_dialog_amount">Payment amount:</string>
+    <string name="payment_dialog_mobile_commission_info" formatted="false">Only Russian providers. Fees range from 11–19%.</string>
+    <string name="payment_dialog_commission_no">No fee.</string>
+    <string name="payment_dialog_title">Buying books</string>
+    <string name="payment_dialog_type_title">Method of payment</string>
+    <string name="payment_dialog_confirm">Confirm your purchase of this book for %1s</string>
+    <string name="payment_type_card">Via debit card</string>
+    <string name="payment_type_inapp">%1s Via Google Play</string>
+    <!--<string name="payment_type_inapp">%1s Через Google Play</string>-->
+    <string name="payment_type_mobile">Via phone account</string>
+    <string name="payment_type_partner_free">Get for free</string>
+    <string name="payment_card_buy_book">Buy book</string>
+    <string name="payment_card_cvv">CVV code</string>
+    <string name="payment_card_email">Email address</string>
+    <string name="payment_card_error_declined">Payment declined</string>
+    <string name="payment_card_error_expiration_not_set">No expiration date entered</string>
+    <string name="payment_card_error_invalid_number">Invalid card number</string>
+    <string name="payment_card_error_invalid_holder">Invalid card holder name</string>
+    <string name="payment_card_error_invalid_cvv">Invalid CVV code</string>
+    <string name="payment_card_error_invalid_email">Invalid email address</string>
+    <string name="payment_card_exp_month">Month</string>
+    <string name="payment_card_exp_year">Year</string>
+    <string name="payment_card_from">PAY VIA CARD</string>
+    <string name="payment_card_holder">First name and last name (as listed on the card)</string>
+    <string name="payment_card_number">Card number</string>
+    <string name="payment_card_save_info">Use this card for future purchases</string>
+    <string name="payment_card_title">Pay via debit card</string>
+    <string name="payment_mcommerce_title">Pay via phone account</string>
+    <string name="payment_mcommerce_message">A text message will be sent to the phone number you entered within the next minute to confirm payment.\n\nRespond to it, and the book will become available to be downloaded and read.</string>
+    <string name="payment_mcommerce_commission_info" formatted="false">MTS: 10.0 rub., Megafon: 16.5%, Beeline: 18.9%, Tele2: 17.8%, Rostelecom: 11.9%</string>
+    <string name="payment_mcommerce_phone_number">Phone number</string>
+    <string name="payment_mcommerce_save_phone_number">Remember this phone number for future payments</string>
+    <string name="payment_mcommerce_try_another_way">TRY ANOTHER METHOD</string>
+    <string name="payment_mcommerce_button_next">Start</string>
+    <string name="payment_mcommerce_phone_hint_mask">+7(</string>
+    <string name="payment_mcommerce_button_change">CHANGE</string>
+    <string name="payment_partner_buy_book">Buy book</string>
+    <plurals name="payment_partner_select_title">
+        <item quantity="one">You have %s available free book.</item>
+        <item quantity="other">You have %s available free books.</item>
+    </plurals>
+    <string name="payment_please_wait">Please wait…</string>
+    <string name="payment_inapp_add_account">You must add a Google account to buy books.</string>
+    <string name="payment_inapp_error_account_needed">You need a Google account to complete a purchase.</string>
+    <string name="payment_failed_title">Failed to complete the purchase.</string>
+    <string name="payment_failed_cancelled">Purchase cancelled</string>
+    <string name="payment_failed_error_authorization">Failed to complete the purchase. User authorization error.</string>
+    <string name="payment_failed_error_confirmation">Failed to complete the purchase. Error confirming payment on the LitRes server.</string>
+    <string name="payment_failed_error_connection">Failed to complete the purchase. Server connection error.</string>
+    <string name="payment_failed_error_connection_retry">Server connection error. The purchase will continue automatically once the connection has been restored.</string>
+    <string name="payment_failed_error_already_in_progress">This book is already in the process of being purchased.</string>
+    <string name="payment_failed_error_already_bought">You already own this book.</string>
+    <string name="payment_failed_error_no_success">Payment failed</string>
+    <string name="payment_failed_error_previous_not_completed">Please wait while the previous purchase is being processed.</string>
+    <!--PROFILE-->
+    <string name="profile_info_tab_books">BOOKS</string>
+    <string name="profile_info_tab_read">READ</string>
+    <string name="profile_info_tab_reviews">REVIEW</string>
+    <string name="profile_info_tab_quotes">NOTES</string>
+    <string name="profile_library_button_login">Connect to library</string>
+    <string name="profile_library_title">Library</string>
+    <string name="profile_settings_attached_accounts">Linked accounts</string>
+    <string name="profile_settings_button_exit">LOG OUT</string>
+    <string name="profile_settings_button_fb_add">Connect to FACEBOOK</string>
+    <string name="profile_settings_button_vk_add">Connect to VK</string>
+    <string name="profile_settings_changes_saved">Changes saved</string>
+    <string name="profile_settings_error_invalid_phone">Invalid phone number</string>
+    <string name="profile_settings_error_socnet_add">&quot;Error linking to social network. Code: &quot;</string>
+    <string name="profile_settings_error_socnet_remove">&quot;Error unlinking social network. Code: &quot;</string>
+    <string name="profile_settings_error_socnet_login">Error logging into application</string>
+    <string name="profile_settings_error_socnet_detach_last">You cannot unlink your only social network</string>
+    <string name="profile_settings_gender">GENDER</string>
+    <string name="profile_settings_gender_male">MALE</string>
+    <string name="profile_settings_gender_female">FEMALE</string>
+    <string name="profile_settings_name">FIRST NAME</string>
+    <string name="profile_settings_phone">PHONE NUMBER</string>
+    <string name="profile_settings_surname">LAST NAME</string>
+    <string name="profile_settings_title">Account settings</string>
+    <string name="profile_toolbar_settings">Settings</string>
+    <string name="profile_toolbar_title">Account</string>
+    <plurals name="profile_books_count_plural">
+        <item quantity="one">BOOK</item>
+        <item quantity="other">BOOKS</item>
+    </plurals>
+    <plurals name="profile_books_read_plural">
+        <item quantity="one">READ</item>
+        <item quantity="other">READ</item>
+    </plurals>
+    <plurals name="profile_review_plural">
+        <item quantity="one">REVIEW</item>
+        <item quantity="other">REVIEWS</item>
+    </plurals>
+    <plurals name="profile_quotes_plural">
+        <item quantity="one">NOTE</item>
+        <item quantity="other">NOTES</item>
+    </plurals>
+    <!--RATE DIALOG-->
+    <string name="rate_could_you_rate_us">Would you mind giving the app a good rating on Google Play?</string>
+    <string name="rate_do_not_ask_again">DON\'T ASK ME AGAIN</string>
+    <string name="rate_google_play_not_found">No suitable applications found</string>
+    <string name="rate_no_thanks">NO THANKS</string>
+    <string name="rate_not_good_text">We care about the opinions of all of our users. Tell us what you don\'t like, and we will correct it promptly.</string>
+    <string name="rate_remind_later">REMIND ME LATER</string>
+    <string name="rate_thanks_for_rate">Thank you for rating the app</string>
+    <string name="rate_title">Rate us</string>
+    <string name="rate_write_to_support">CONTACT CUSTOMER SUPPORT</string>
+    <string name="rate_yes_sure">YES, OF COURSE</string>
+    <!--READER-->
+    <string name="reader_no_image" translatable="false">There is no spoon</string>
+    <string name="reader_page_n_from_m">Page %1$d of %2$d</string>
+    <string name="reader_quote_empty">No quotations</string>
+    <string name="reader_share_url" translatable="false">http://www.litres.ru/</string>
+    <string name="reader_toc_dots" translatable="false">. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .</string>
+    <string name="reader_bookmark_title">Bookmark</string>
+    <string name="reader_bookmark_empty">No bookmarks</string>
+    <string name="reader_bookmark_added">Bookmark \nadded</string>
+    <string name="reader_bookmark_removed">Bookmark \ndeleted</string>
+    <string name="reader_button_free_download">Download for free</string>
+    <string name="reader_button_buy">Buy</string>
+    <string name="reader_color_palette_bg_0" translatable="false">#ebf0f1</string>
+    <string name="reader_color_palette_bg_1" translatable="false">#b0c47f</string>
+    <string name="reader_color_palette_bg_2" translatable="false">#f3e395</string>
+    <string name="reader_color_palette_bg_3" translatable="false">#f3ae73</string>
+    <string name="reader_color_palette_bg_4" translatable="false">#588c75</string>
+    <string name="reader_color_palette_bg_5" translatable="false">#bdc4c8</string>
+    <string name="reader_color_palette_bg_6" translatable="false">#7c8c8e</string>
+    <string name="reader_color_palette_bg_7" translatable="false">#1e3c50</string>
+    <string name="reader_color_palette_font_0" translatable="false">#f5eaaa</string>
+    <string name="reader_color_palette_font_1" translatable="false">#ebdace</string>
+    <string name="reader_color_palette_font_2" translatable="false">#d1dcb2</string>
+    <string name="reader_color_palette_font_3" translatable="false">#ffffff</string>
+    <string name="reader_color_palette_font_4" translatable="false">#000000</string>
+    <string name="reader_color_palette_font_5" translatable="false">#637480</string>
+    <string name="reader_color_palette_font_6" translatable="false">#cbcbcb</string>
+    <string name="reader_color_palette_font_7" translatable="false">#064f6d</string>
+    <string name="reader_error_book_loading">Error opening book. Try opening or downloading it again.</string>
+    <string name="reader_error_book_format">Error opening book: unknown format</string>
+    <string name="reader_external_epub" translatable="false">org.geometerplus.zlibrary.ui.android</string>
+    <string name="reader_external_epub_not_found_title">Application not found</string>
+    <string name="reader_external_epub_not_found_message">No programs for reading epub files have been installed on your device. Go to the Google Play Store to install the recommended app?</string>
+    <string name="reader_external_epub_open_marker">Go</string>
+    <string name="reader_label_remove">Delete</string>
+    <string name="reader_label_copy">Copy</string>
+    <string name="reader_label_change_color">Change color</string>
+    <string name="reader_label_share">Share</string>
+    <string name="reader_label_add_label">Add note</string>
+    <string name="reader_label_text_copied">Text copied</string>
+    <string name="reader_label_quote">Note</string>
+    <string name="reader_label_free">FREE</string>
+    <string name="reader_label_add">ADD</string>
+    <string name="reader_label_cancel">CANCEL</string>
+    <string name="reader_label_button_cancel">Cancel</string>
+    <string name="reader_label_ok">OK</string>
+    <string name="reader_label_popup_color">Color</string>
+    <string name="reader_label_popup_copy">Copy</string>
+    <string name="reader_label_popup_delete">Delete</string>
+    <string name="reader_label_popup_share">Share</string>
+    <string name="reader_label_close">Close</string>
+    <string name="reader_label_yes">Yes</string>
+    <string name="reader_label_no">No</string>
+    <string name="reader_menu_add_bookmark">Add bookmark</string>
+    <string name="reader_menu_toc_etc">Table of Contents, Bookmarks, Quotations</string>
+    <string name="reader_menu_settings">Settings</string>
+    <string name="reader_menu_add_note">ADD</string>
+    <string name="reader_message_loading">Please wait…</string>
+    <string name="reader_message_no_space">Insufficient memory</string>
+    <string name="reader_old_settings_key_custom_color_control" translatable="false">book_custom_color</string>
+    <string name="reader_old_settings_key_theme" translatable="false">book_theme</string>
+    <string name="reader_old_settings_key_day_background_color_control" translatable="false">book_day_background</string>
+    <string name="reader_old_settings_key_night_background_color_control" translatable="false">book_night_background</string>
+    <string name="reader_old_settings_key_font_color_control" translatable="false">book_font_color</string>
+    <string name="reader_old_setting_day_font_size" translatable="false">book_day_font_size_prefs</string>
+    <string name="reader_old_setting_night_font_size" translatable="false">book_night_font_size_prefs</string>
+    <string name="reader_old_setting_night_line_spacing" translatable="false">book_night_line_spacing</string>
+    <string name="reader_old_setting_day_line_spacing" translatable="false">book_day_line_spacing</string>
+    <string name="reader_old_setting_page_view_animation" translatable="false">book_page_view_animation</string>
+    <string name="reader_old_setting_tap_zone_type" translatable="false">book_tap_zone_type</string>
+    <string name="reader_old_setting_tap_zone_reverse" translatable="false">book_tap_zone_reverse</string>
+    <string name="reader_old_setting_volume_buttons_for_navigation" translatable="false">book_volume_buttons_for_navigation</string>
+    <string name="reader_old_setting_day_typeface" translatable="false">book_day_typeface</string>
+    <string name="reader_old_setting_night_typeface" translatable="false">book_night_typeface</string>
+    <string name="reader_old_quotation_delete">Delete quotation</string>
+    <string name="reader_old_quotation_add_note">Add note</string>
+    <string name="reader_old_quotation_edit_note">View note</string>
+    <string name="reader_old_quotation_cancel">Cancel</string>
+    <string name="reader_pdf_selector_title">Choose file to open</string>
+    <string name="reader_position_update_info">A newer reading position has been found. Go to it?</string>
+    <string name="reader_position_update_yes">Go</string>
+    <string name="reader_position_update_no">Cancel</string>
+    <string name="reader_setting_spinner_save">Save</string>
+    <string name="reader_setting_show_all_text">SHOW ALL SETTINGS</string>
+    <string name="reader_setting_theme_letter">A</string>
+    <string name="reader_setting_typeface_letters">Aa</string>
+    <string name="reader_tab_toc">TABLE OF CONTENTS</string>
+    <string name="reader_tab_bookmarks">BOOKMARKS</string>
+    <string name="reader_tab_quotes">QUOTATIONS</string>
+    <string name="reader_upsale_title">Congratulations! You\'ve finished the book</string>
+    <string name="reader_upsale_related">You might also be interested in:</string>
+    <!--REDIRECT-->
+    <string name="redirect_error_author_id">Error: this author is unavailable</string>
+    <string name="redirect_error_book_id">Error: this book is unavailable</string>
+    <string name="redirect_error_empty_data">Could not process command – invalid format</string>
+    <string name="redirect_error_malformed_url">An error occurred while processing the link. Please contact tech support.</string>
+    <!--SEARCH-->
+    <string name="search_best_match">Best match</string>
+    <string name="search_header_authors">Authors (%d)</string>
+    <string name="search_header_books">Books (%d)</string>
+    <string name="search_header_genres">Genres</string>
+    <string name="search_header_sequences">Series (%d)</string>
+    <string name="search_spoiler">%d MORE</string>
+    <string name="search_start_info">Enter your request</string>
+    <!--SHELVES-->
+    <string name="shelves_button_new">New bookshelf</string>
+    <string name="shelves_empty_text">This shelf has no books</string>
+    <string name="shelves_empty_upsale">Buy books from our store and enjoy reading on all your devices</string>
+    <string name="shelves_empty_button_shop">STORE</string>
+    <string name="shelves_item_archive">Archive</string>
+    <string name="shelves_item_reading">Currently reading</string>
+    <string name="shelves_message_delete">If you delete the bookshelf, the books from it will be moved to \&quot;Currently reading.\&quot;</string>
+    <string name="shelves_message_added">Bookshelf added</string>
+    <string name="shelves_message_deleted">Bookshelf deleted</string>
+    <string name="shelves_message_error_title_cannot_be_empty">The name cannot be blank!</string>
+    <string name="shelves_message_error_title_exists">A bookshelf with that name already exists.</string>
+    <!--SIGNUP-->
+    <string name="signup_btn_forgot_password">REMEMBER PASSWORD</string>
+    <string name="signup_btn_login">LOG IN</string>
+    <string name="signup_btn_login_pin">LOG IN</string>
+    <string name="signup_btn_manual_input">ENTER THE PASSWORD YOURSELF</string>
+    <string name="signup_btn_recover">GET PASSWORD</string>
+    <string name="signup_btn_registration">REGISTRATION</string>
+    <string name="signup_btn_relogin">SEND</string>
+    <string name="signup_btn_support">CUSTOMER SUPPORT</string>
+    <string name="signup_btn_library_enter">Connect</string>
+    <string name="signup_error_password_no">Enter your password</string>
+    <string name="signup_error_password_short">The password must be at least five characters long</string>
+    <string name="signup_error_password_wrong">Invalid password</string>
+    <string name="signup_error_login_empty">Enter your email address</string>
+    <string name="signup_error_login_not_auth">Log into your account to continue reading</string>
+    <string name="signup_error_login_pin_empty">Enter PIN</string>
+    <string name="signup_error_login_exists">This username is already in use</string>
+    <string name="signup_error_login_not_exists">This email address has not been registered. Please try again or contact customer support.</string>
+    <string name="signup_error_login_not_email">Invalid email address</string>
+    <string name="signup_error_relogin_message_wrong_log_pw">Your username or password may have been changed. Please log in again.</string>
+    <string name="signup_error_unknown_recover">Unknown error while restoring password:</string>
+    <string name="signup_error_unknown_login">Unknown login error:</string>
+    <string name="signup_error_unknown_reg">Unknown registration error:</string>
+    <string name="signup_error_wrong_login_or_password">Invalid username or password. Please make sure you have entered your information correctly.</string>
+    <string name="signup_error_wrong_relogin_password">Invalid password</string>
+    <string name="signup_error_wrong_time_or_date">Could not fulfill request – incorrect date/time set on the device</string>
+    <string name="signup_hint_password">Password</string>
+    <string name="signup_hint_login">Email address</string>
+    <string name="signup_hint_login_pin" translatable="false">XXX-XXX</string>
+    <string name="signup_library_card_number">Library card number</string>
+    <string name="signup_library_error_login_empty">Enter library card number</string>
+    <string name="signup_pin_info">Enter the PIN code\nyou got on the website\or via text message</string>
+    <string name="signup_pin_info_site">website</string>
+    <string name="signup_pin_info_sms">text message</string>
+    <string name="signup_pin_login_error_unknown">Unknown error</string>
+    <string name="signup_pin_login_error_wrong_pin">Authorization error. Invalid PIN</string>
+    <string name="signup_password_info_generated">We will send\na confirmation to your email address</string>
+    <string name="signup_password_info_manual">We will send\na confirmation to your email address</string>
+    <string name="signup_recover_password_info">Enter your email address, and we\'ll send you instructions on how to recover your password.</string>
+    <string name="signup_recovery_email_sent_part1">Password recovery instructions have been sent</string>
+    <string name="signup_recovery_email_sent_part2">to your mailbox</string>
+    <string name="signup_reg_terms_of_service_simple_text">By pressing the \&quot;Register\&quot; button,\nyou are confirming that you agree\nto the\u0020</string>
+    <string name="signup_reg_terms_of_service_clickable_text">Terms of Service</string>
+    <string name="signup_relogin_user_confirmation">Please log into your account again.</string>
+    <string name="signup_relogin_no_password_part1">We noticed that you logged into the application using a PIN code. Please enter the password to your account</string>
+    <string name="signup_relogin_no_password_part2">to make sure all your books are always with you.</string>
+    <string name="signup_term_of_service_error">The webpage cannot be viewed – you must install a browser</string>
+    <!--STORE TABS-->
+    <string name="store_item_free_genre">Free books</string>
+    <string name="store_tab_new_books">New releases</string>
+    <string name="store_tab_popular_books">Popular</string>
+    <string name="store_tab_sub_genres">Subgenres</string>
+    <!-- not sorted-->
+    <string name="payment_card_another">PAY WITH ANOTHER CARD</string>
+    <string name="profile_library_not_available">Book is not available in the library</string>
+    <string name="dialog_no_available_books_text">You have taken all the available books from the collection. Switch to My Books to start reading.</string>
+    <string name="dialog_no_available_books_btn_title">MY BOOKS</string>
+    <string name="dialog_select_top_up_title">Refill LitRes account</string>
+    <string name="dialog_select_top_up_sum">Amount</string>
+    <string name="dialog_select_top_up_card_btn_title">Bank card</string>
+    <string name="dialog_select_top_up_card_btn_desc">Without commission</string>
+    <string name="dialog_select_top_up_phone_btn_title">With mobile phone</string>
+    <string name="dialog_select_top_up_phone_desc">Only Russian network providers. Commission 11-19%</string>
+    <string name="dialog_select_top_up_other_variant_btn">Other payment methods</string>
+    <string name="library_card_number">Library card number</string>
+    <string name="payment_buy_book">Buy book</string>
+    <string name="purchase_top_up_balance">Top up balance</string>
+    <string name="pay_from_litres">Debit your LitRes account</string>
+    <string name="select_payment_pay_all_sum">Pay full book price</string>
+    <string name="top_up_balance_fail">Error topping up the balance</string>
+    <string name="top_up_balance_success">Balance topped up successfully</string>
+    <string name="user_is_not_authorized">User is not authorized</string>
+    <string name="payment_top_up_balance">Top up balance</string>
+    <string name="coupon_dialog_choose_from_collection">Choose from collection:</string>
+    <string name="top_up_enter_sum">Enter amount</string>
+    <string name="top_up_wrong_sum">Wrong amount</string>
+    <string name="settings_about">About the application</string>
+    <string name="settings_language_content">Content language</string>
+    <string name="settings_language_en">English</string>
+    <string name="settings_language_lv">Latvian</string>
+    <string name="settings_language_lv_ru">Latvian-Russian</string>
+    <string name="settings_language_lt">Lithuanian</string>
+    <string name="settings_language_lt_ru">Lithuanian-Russian</string>
+    <string name="settings_language_ru">Russian</string>
+    <string name="settings_language_ui">App interface language</string>
+    <string name="settings_push_receive">Receive push notifications</string>
+    <string name="settings_support">Report a problem</string>
+    <string name="reader_settings_color_background">Background color</string>
+    <string name="reader_settings_color_font">Font color</string>
+    <string name="reader_settings_custom_colors">Use custom color scheme</string>
+    <string name="reader_settings_lefthanded_mode">Left handed mode</string>
+    <string name="reader_settings_use_volume_buttons">Use volume buttons for page flip</string>
+    <string name="reader_settings_light_gesture">Change brightness with gesture</string>
+    <string name="reader_settings_line_spacing">Line spacing</string>
+    <string name="reader_settings_animation">Animation</string>
+    <string name="reader_settings_font_size">Font\nsize</string>
+    <string name="photo_search_error">Error processing file</string>
+    <string name="search_photo_retake_picture">Retake the picture</string>
+    <string name="search_photo_find_by_name">Search by name</string>
+    <string name="search_photo_error_dialog_title">Unknown error</string>
+    <string name="search_photo_error_dialog_text">Probably photograph is quality is low or no such book in our store</string>
+    <string name="photo_search_cant_get_image_from_gallery">Can not get image from gallery</string>
+    <string name="menu_search_title">Search</string>
+    <string name="search_create_photo_desc">Take a photo of\npaper book and we will find\nit in e-book format</string>
+    <string name="menu_search_photo_title">Search for a book by its cover</string>
+    <string name="search_wait_while_we_working">Please wait while we are looking for\nbook in electronic format</string>
+    <string name="search_take_phot_can_not_get_book">Can not open the book</string>
+    <string name="search_photo_cant_init_camera">Can not get access to a camera</string>
+    <string name="camera_dialog_ok">OK</string>
+    <string name="settings_language_en_core">English</string>
+    <string name="settings_language_ru_core">Русский</string>
+    <string name="settings_language_de">Deutsch</string>
+    <string name="settings_language_es">Español</string>
+    <string name="settings_language_et">Eesti</string>
+    <string name="settings_language_lt_core">Lietuvių</string>
+    <string name="settings_language_lv_core">Latviešu</string>
+    <string name="settings_language_pl">Polski</string>
+    <string name="settings_language_tr">Türk</string>
+    <string name="settings_language_zh">中国</string>
+    <!--not translated-->
+    <string name="second_book_dialog_to_my_books">Моих книгах</string>
+    <string name="second_book_dialog_desc">Спасибо за покупку книги! Вы найдете её в «%s».</string>
+    <string name="second_book_dialog_buy_second_book_title">Купите вторую книгу со скидкой %s%%</string>
+    <string name="second_book_dialog_load_book_error">Не удалось загрузить книгу</string>
+    <string name="second_book_dialog_offer_valid_till">Предложение\nдействует</string>
+    <string name="second_book_dialog_action_buy">Купить</string>
+    <string name="second_book_dialog_action_buy_for">Купить за</string>
+    <string name="second_book_dialog_action_choose_other">выбрать другую</string>
+    <string name="second_book_personal">Персональная</string>
+    <string name="timer_hour">час.</string>
+    <string name="timer_minutes">мин.</string>
+    <string name="timer_seconds">сек.</string>
+    <string name="four_book_gift_title">4я книга в подарок</string>
+    <string name="signup_error_login_school_account">This account type not supported in app</string>
+    <string name="captcha_test">Проверка пользователся</string>
+    <string name="payment_failed_error_1000">Техническая ошибка на стороне PayOnline. Попробуйте позже.</string>
+    <string name="payment_failed_error_4004">Неверный номер карты.</string>
+    <string name="payment_failed_error_4008">Неверно указана страна.</string>
+    <string name="payment_failed_error_4009">Неверно указан город.</string>
+    <string name="payment_failed_error_4013">Неверно указано название банка эмитента.</string>
+    <string name="payment_failed_error_4016">Заказ уже оплачен.</string>
+    <string name="payment_failed_error_3xxx">Техническая ошибка на стороне Банка. Попробуйте позже.</string>
+    <string name="payment_failed_error_4014">Истек срок действия карты.</string>
+    <string name="payment_failed_error_4xxx">Рекомендуем проверить введенные данные и повторить попытку оплаты.</string>
+    <string name="payment_failed_error_5205">Платеж откланен Банком эмитентом, т.к. на карте недостаточно средств.</string>
+    <string name="payment_failed_error_5204_5308">Платеж отклонен Банком. Отклонение произошло по техническим причинам. Повторите попытку оплаты или воспользуйтесь другим способом оплаты.</string>
+    <string name="payment_failed_error_5301">Платеж отклонен Банком эмитентом, т.к. истек срок действия карты.</string>
+    <string name="payment_failed_error_5302_5xxx">Платеж не был подтвержден банком эмитентом. Для уточнения причин отказа, необходимо, обратиться в Банк, выпустивший карту.</string>
+    <string name="payment_failed_error_5310">Платеж отклонен Банком эмитентом, т.к. превышен лимит сумы оплаты по карте установленный банком эмитентом.</string>
+    <string name="payment_failed_error_5411">Платеж отклонен Банком эмитентом,т.к. неверно введен CVV2/CVC2.</string>
+    <string name="payment_failed_error_6002_6004">На стороне Банка эмитента возник технический сбой по предоставлению страницы для прохождения 3D-Secure.</string>
+    <string name="payment_failed_error_6003">Процедура аутентификации по 3D-Secure не прошла (плательщик ввел некорректные авторизационные данные).</string>
+    <string name="payment_failed_error_2011">Пожалуйста, повторите попытку оплаты не с рабочего компьютера или воспользуйтесь любым другим способом оплаты.</string>
+    <string name="payment_failed_error_2100_2101">В данный момент платеж не может быть совершен. Повторите, пожалуйста, попытку оплаты заново, но не ранее чем через 24 часа.</string>
+    <string name="payment_failed_error_2001_2xxx">Платеж по данной банковской карте не может быть совершен в соответствии с условиями обслуживания интернет-магазина процессинговым центром PayOnline System. Пожалуйста, воспользуйтесь другой картой или выберите другой доступный способ оплаты.</string>
+    <string name="redirect_browser_choose">Choose app</string>
+    <string name="redirect_no_browser">Browser app not installed</string>
+    <string name="redirect_dialog_open">Open</string>
+    <string name="redirect_dialog_cancel">Cancel</string>
+    <string name="redirect_dialog_error_info">Error parsing url. Open in browser?</string>
+    <string name="redirect_dialog_error_title">Error</string>
+    <string name="write_to_support">Write to support...</string>
+    <string name="purchase_collection_error">Ошибка получения коллекции партнера.</string>
+    <string name="purchase_user_update_error">Ошибка в параметрах при запросе обновления информации пользователя.</string>
+    <string name="purchase_book_update_error">Ошибка при запросе обновления информации о книге.</string>
+    <string name="purchase_user_update_unknown_error">Неизвестная ошибка при получении информации пользователя.</string>
+    <string name="purchase_logout_error">Покупка прервана. Произошел разлогин пользователя.</string>
+    <string name="purchase_uuid_error">Невозможно получить книгу. Не задан параметр uuid.</string>
+    <string name="purchase_no_books_collection_error">Невозможно получить книгу. Не осталось доступных книг в этой подписной коллекции.</string>
+    <string name="purchase_book_unknown_error">Невозможно получить книгу. Неизвестная ошибка сервера.</string>
+    <string name="purchase_book_unknown_error2">Невозможно получить книгу. Что-то пошло не так, мы в шоке.</string>
+    <string name="purchase_partner_error">Техническая проблема на стороне платежного сервиса. Возможно, операция пройдет спустя некоторое время.</string>
+    <string name="purchase_unable_error">Провести оплату невозможно. Воспользуйтесь другим способом оплаты.</string>
+    <string name="purchase_declined_error">Платеж отклонен платежной системой.</string>
+    <string name="purchase_data_time_expired">Истекло время ожидания данных, повторите операцию.</string>
+    <string name="purchase_money_time_expired">Истекло время ожидания поступления денег на счет.</string>
+    <string name="purchase_parametr_error">Ошибка в параметрах при запросе обновления информации пользователя.</string>
+    <string name="purchase_art_error">Невозможно приобрести книгу. Неверно задан параметр art.</string>
+    <string name="purchase_unable_buy">Невозможно приобрести книгу. Данная книга не может быть продана.</string>
+    <string name="purchase_not_enought_money">Невозможно приобрести книгу. Недостаточно средств.</string>
+    <string name="purchase_already_have">Невозможно приобрести книгу. Книга уже куплена.</string>
+    <string name="purchase_unable_discount">Не удалось активировать скидку.</string>
+    <string name="purchase_processing_error">Ошибка получения данных от процессингового центра.</string>
+    <string name="purchase_user_order_null_error">Заказ или пользователь не найден.</string>
+    <string name="purchase_incorrect_phone_error">Указан неверный номер телефона.</string>
+    <string name="purchase_incorrect_value_error">Указана недопустимая сумма.</string>
+    <string name="purchase_order_expired_error">Превышено время ожидания платежа.</string>
+    <string name="purchase_internal_error">Произошла внутренняя ошибка.</string>
+    <string name="purchase_mobile_error">Ошибка при проведении мобильного платежа.</string>
+
+    <string name="dialog_choose_content_lang_title">Choose content language</string>
+    <string name="dialog_choose_content_lang_info">You can change content language in app settings at anytime</string>
+    <string name="gp_alert_dialog_attention">Attention</string>
+    <string name="gp_alert_dialog_text">For proper work application needs the latest version of Google Play services</string>
+    <string name="gp_alert_dialog_update">Update</string>
+    <string name="gp_alert_dialog_ignore">Ignore</string>
+
+    <string name="loading_book_please_wait">Открытие книжки, подождите…</string>
+    <string name="autoreg_signup_terms1">Нажимая на кнопку «Сохранить книгу», Вы соглашаетесь \n с\u0020</string>
+    <string name="autoreg_signup_terms2">условиями обслуживания</string>
+    <string name="autoreg_signup_save_btn">СОХРАНИТЬ КНИГУ</string>
+    <string name="autoreg_signup_thanks">Спасибо за покупку книги!\nВы найдете её в «Моих книгах».</string>
+    <string name="autoreg_signup_dont_lose">Не потеряйте купленную книгу!</string>
+    <string name="autoreg_signup_text_hint">Введите электронную почту</string>
+    <string name="autoreg_signup_info">Используйте этот адрес для входа в приложения «Читай!», «Слушай!» или на сайте litres.ru</string>
+    <string name="autoreg_signup_email_error">Электронная почта введена неверно</string>
+    <string name="autoreg_signup_success">Аккаунт успешно создан</string>
+
+    <string name="push_enable_dialog_instruction1">Для включения уведомлений</string>
+    <string name="push_enable_dialog_instruction2">Откройте настроки системы</string>
+    <string name="push_enable_dialog_instruction3">Выберите «Уведомления»</string>
+    <string name="push_enable_dialog_instruction4">Отключите «Блокировать все»</string>
+    <string name="push_enable_dialog_btn_open_settings">ОТКРЫТЬ НАСТРОЙКИ</string>
+    <string name="push_enable_dialog_banner">Включить уведомления с персональными рекомендациями</string>
+
+    <string name="autoreg_reader_signup_info">Получите доступ ко всем фрагментам книг и 26000 бесплатных книг</string>
+    <string name="autoreg_reader_signup_btn">Продолжить чтение</string>
+    <string name="autoreg_reader_signup_terms">Нажимая на кнопку «Продолжить чтение», Вы соглашаетесь с\u0020</string>
+
+    <string name="auto_user_reg_dialog_title">After registering\nyou will receive</string>
+    <string name="auto_user_reg_dialog_desc_1">Access to excerpts of all books</string>
+    <string name="auto_user_reg_dialog_desc_2">30 000 free books</string>
+    <string name="auto_user_reg_dialog_desc_3">Discounts of up to 50% on books</string>
+
+    <string name="auto_user_reg_dialog_btn_reg">ЗАРЕГИСТРИРОВАТЬСЯ</string>
+    <string name="auto_user_reg_dialog_btn_soc_net">ВОЙТИ ЧЕРЕЗ СОЦ. СЕТИ</string>
+    <string name="auto_user_reg_dialog_btn_not_now">НЕ СЕЙЧАС</string>
+    <string name="auto_user_reg_dialog_btn_exist">УЖЕ ЕСТЬ ПРОФИЛЬ</string>
+    <string name="auto_user_reg_dialog_terms">Нажимая на кнопку «Зарегистрироваться», Вы соглашаетесь с\u0020</string>
+    <string name="auto_user_reg_dialog_soc_net_title">Войти через\nсоциальные сети</string>
+
+    <string name="socnet_login_error">Ошибка при подключении к соцсети</string>
+    <string name="socnet_already_attached">Этот аккаунт уже привязан к другой учетной записи в системе ЛитРес</string>
+    <string name="my_reviews">Мои отзывы</string>
+    <string name="my_reviews_order_by_new">по новизне</string>
+    <string name="my_reviews_order_by_popular">по популярности</string>
+    <string name="review_approval">Ваш отзыв на модерации</string>
+    <string name="review_send">Отправить с помощью</string>
+
+    <string name="turn_on_permission_storage">Приложению требуется доступ к локальному хранилищу, чтобы сохранять данные</string>
+    <string name="turn_on_permission_contacts">Приложеню требуется доступ к контактам</string>
+    <string name="turn_on_permission_camera">Приложеню требуется доступ к камере</string>
+    <string name="turn_on_permission">Пожалуйста, проверьте в настройках что у приложение есть необходимые права</string>
+    <string name="permission_dialog_yes">настройки</string>
+    <string name="permission_dialog_no">продолжить</string>
+    <string name="storage_permission_error">Приложение не смогло получить доступ к памяти устройства</string>
+
+    <string name="photo_search_discount_activation_desc">Скидку за поиск по обложке можно применить только один раз. Хотите применить ее к этой книге?</string>
+    <string name="photo_search_discount_activation_btn_decline">Искать еще</string>
+    <string name="photo_search_discount_activation_btn_accept">Да</string>
+    <string name="notification_didnt_accept">Ошибка активации: уведомления заблокированы пользователем.</string>
+    <string name="photo_search_discount_activation_title">Получить скидку</string>
+    <string name="push_enable_dialog_btn_not_now">НЕ СЕЙЧАС</string>
+
+    <string name="new_login_enter">Sign in through</string>
+    <string name="dialog_or">or</string>
+    <string name="login_with_mail">email address</string>
+    <string name="login_with_lib_account">LitRes: Library</string>
+    <string name="litres_library_login">LitRes: Library</string>
+    <string name="dialog_not_now">Not now</string>
+    <string name="dialog_no_profile">Do not have a profile?</string>
+    <string name="already_has_profile">Already have a profile?</string>
+    <string name="dialog_recover_password_title">Forgot password?</string>
+    <string name="dialog_login_email">Sign in</string>
+    <string name="new_register_through">Registration through</string>
+
+    <string name="signup_social_enter_using_ok">OK.RU</string>
+    <string name="signup_social_enter_using_ml">MAIL.RU</string>
+    <string name="signup_social_enter_using_gp">GOOGLE+</string>
+    <string name="signup_social_enter_using_tw">TWITTER</string>
+    <string name="signup_social_enter_using_fb">FACEBOOK</string>
+    <string name="signup_social_enter_using_vk">VKONTAKTE</string>
+    <string name="profile_settings_button_ml_add">Connect to MAIL.RU</string>
+    <string name="profile_settings_button_gp_add">Connect to GOOGLE+</string>
+    <string name="profile_settings_button_ok_add">Connect to OK.RU</string>
+
+    <string name="purchase_incorrect_phone_or_operator_error">Указан неверный номер телефона. Поддерживаемые операторы: Beeline, Megafon, Mts and Tele2</string>
+
+    <string name="library_merge_with_user_info" formatted="false">"Мы объединим %s с %s и вы сможете использовать все возможности от этих аккаунтов под единым логином %s"</string>
+    <string name="action_request_in_reader">Запросите книгу и читайте полную версию</string>
+    <string name="action_obtain_from_reader">Возьмите книгу и читайте полную версию</string>
+    <string name="action_cancel_in_reader">Ожидайте решение библиотекаря</string>
+    <string name="book_list_calatog_title">Каталог</string>
+    <string name="shelves_empty_library">У вас ни одной книги.\nМного интересных книг в каталоге.</string>
+    <string name="shelves_empty_button_catalog">КАТАЛОГ</string>
+
+    <string name="shelves_author_group_spoiler">Больше книг автора</string>
+    <string name="shelves_sequence_group_spoiler">Больше книг из серии</string>
+    <string name="my_books_sort_date">По дате открытия</string>
+    <string name="my_books_sort_alphabet">По алфавиту</string>
+    <string name="my_books_sort_added_date">По дате добавления</string>
+    <string name="my_books_sort_author">По автору</string>
+    <string name="my_books_sort_genre">По жанру</string>
+    <string name="my_books_sort_series">По серии</string>
+    <string name="my_books_author_title">Без автора</string>
+    <string name="my_books_series_title">Без серии</string>
+    <string name="my_books_genre_title">Без жанра</string>
+    <string name="my_books_filter_title">Фильтры</string>
+    <string name="my_books_filter_only_downloaded">Только загруженные</string>
+    <string name="my_book_empty_filter">Нет книг для выбранных фильтров</string>
+    <string name="my_books_reset_filters">Сбросить фильтры</string>
+    <string name="my_books_totally_read_filter">Прочитанные</string>
+    <string name="my_books_read_filter">Читаю</string>
+    <string name="my_books_bot_read_filter">Еще не читал</string>
+
+
+    <string name="try_text">Try it</string>
+    <string name="description_discount_photo_offer">Take a picture of the cover and get a discount on the book</string>
+    <string name="notify_text_photo_cover">Now you can find a book by its cover</string>
+    <string name="share">Share</string>
+    <string name="bookcard_share_book_text" formatted="false">Мне понравилась книга «%s» на ЛитРес!</string>
+
+    <string name="friend_discount">Посоветуйте книгу и получите 10%</string>
+    <string name="offer_book_text">Посоветуйте книгу</string>
+    <string formatted="false" name="offer_book_description">При покупке друзья получат скидку 10%. Вы получите 10% c купленной книги на ваш счет. Баланс можно посмотреть на сайте ЛитРес.</string>
+    <string name="offer_book_socnet">Посоветуйте через соцсети</string>
+    <string name="offer_send_link">или пришлите другу ссылку</string>
+    <string name="gift_discount">Я даю скидку 10%  на книгу: </string>
+
+    <string name="fragment_upsale_listen">Слушать</string>
+    <string name="fragment_upsale_header_text_1">You have finished reading the excerpt. Purchase the complete version.</string>
+    <string name="fragment_upsale_header_text_2">That is the end of the free excerpt. Do you want to read more?</string>
+    <string name="fragment_upsale_button_text_2">Read more for</string>
+
+    <string name="free_books_search_key">беспл</string>
+
+    <string name="nav_drawer_title_news">Новости</string>
+
+    <string name="news_title_today">Сегодня</string>
+    <string name="news_title_yesterday">Вчера</string>
+    <string name="news_title_week">На этой неделе</string>
+    <string name="news_month_title_month">В этом месяце</string>
+    <string name="news_empty_text">У вас ни одной новости.</string>
+    <string name="enable_notifications">Включить уведомления</string>
+    <string name="upsale_listen_audio_header">Послушайте аудиоверсию</string>
+
+
+</resources>
