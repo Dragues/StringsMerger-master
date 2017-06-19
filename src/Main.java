@@ -121,7 +121,7 @@ public class Main {
     }
 
     private static void writeDataToFile(StringBuilder builder) throws Exception {
-        File file = new File("/Users/ooolitres/IdeaProjects/StringsMerger-master/out2/artifacts/StringsMerger_jar/" +"result" + ".xml");
+        File file = new File( "result" + ".xml");
         if (file.exists())
             file.delete();
         file.createNewFile();
@@ -139,7 +139,7 @@ public class Main {
     }
 
     private static HashMap<String,String> getMap(String fileName, boolean translated) throws Exception {
-        File file = new File("/Users/ooolitres/IdeaProjects/StringsMerger-master/out2/artifacts/StringsMerger_jar/" + fileName + ".xml");
+        File file = new File(fileName + ".xml");
         if (!file.exists())
             throw new Exception("No file with name " + fileName);
 
@@ -195,7 +195,7 @@ public class Main {
     }
 
     private static String readFile(String fileName, List<String> ignoreTags) throws IOException {
-        BufferedReader br = new BufferedReader(new FileReader("/Users/ooolitres/IdeaProjects/StringsMerger-master/out2/artifacts/StringsMerger_jar/" +fileName + ".xml"));
+        BufferedReader br = new BufferedReader(new FileReader( fileName + ".xml"));
         try {
             StringBuilder sb = new StringBuilder();
             String line = br.readLine();
